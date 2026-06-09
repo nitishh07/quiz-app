@@ -48,8 +48,6 @@ public class QuizService {
             questionsForUser.add(qw);
 
         }
-        
-
         return new ResponseEntity<>(questionsForUser , HttpStatus.OK);
 
     }
